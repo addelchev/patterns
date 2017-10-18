@@ -26,10 +26,4 @@ public class Audi extends Auto {
 	}
 
 
-	@Override
-	public void assembleAuto() {
-		// TODO Auto-generated method stub
-		
-	}
-
 }

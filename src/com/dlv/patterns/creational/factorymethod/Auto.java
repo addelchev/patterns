@@ -4,11 +4,14 @@ public abstract class Auto {
 	
 	protected String id;
 	
-	public abstract void assembleAuto();
-	
 	public abstract void turnOn();
 	
 	public abstract void turnOff();
 	
 	public abstract void printSerial();
+	
+	@Override
+	public String toString() {
+		return this.getClass().getSimpleName();
+	}
 }

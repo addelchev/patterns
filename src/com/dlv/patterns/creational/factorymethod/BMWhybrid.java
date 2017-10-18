@@ -26,16 +26,4 @@ public class BMWhybrid extends Auto {
 		System.out.println(id);
 	}
 
-
-	@Override
-	public void assembleAuto() {
-		System.out.println("=========================");
-		System.out.println("The BMW hybrid assembled and ready to go");
-		printSerial();
-		turnOn();
-		turnOff();
-		System.out.println("=========================");
-		
-	}
-
 }

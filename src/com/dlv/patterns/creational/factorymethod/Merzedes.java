@@ -2,25 +2,29 @@ package com.dlv.patterns.creational.factorymethod;
 
 import java.util.UUID;
 
-public class BMW extends Auto {
-	
-	public BMW() {
+public class Merzedes extends Auto {
+
+	public Merzedes() {
 		id = UUID.randomUUID().toString();
 	}
 	
+
 	@Override
 	public void turnOn() {
-		System.out.println("The bavarian beast roars with power");
+		System.out.println("The stuttgart fury is on");
+
 	}
 
 	@Override
 	public void turnOff() {
-		System.out.println("The bmw reluctantly turns off...");
+		System.out.println("The stuttgart fury is off");
+
 	}
 
+	@Override
 	public void printSerial() {
-		System.out.println(id);
-	}
+		System.out.println("Merzedes ID : " + id);
 
+	}
 
 }

@@ -27,16 +27,4 @@ public class Mini extends Auto {
 		
 	}
 
-
-	@Override
-	public void assembleAuto() {
-		System.out.println("=========================");
-		System.out.println("The mini assembled pew pew");
-		printSerial();
-		turnOn();
-		turnOff();
-		System.out.println("=========================");
-		
-	}
-
 }
